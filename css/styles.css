@@ -1,0 +1,207 @@
+
+/* Палітра
+основний колір тексту - #212121;
+додатковий колір тексту - #757575;
+колір активності - #2196F3;
+білий колір - #FFFFFF;*/
+
+:root{
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --activ-color: #2196F3;
+    --white-color:#FFFFFF;
+}
+
+body{
+    color: var(--main-text-color);
+    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: var(--activ-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-end{
+    color: #000000;
+}
+
+.logo-end-f{
+    color: var(--white-color);
+}
+
+.link{
+    color: var(--main-text-color);
+}
+
+.contacts-link{
+    color: var(--second-text-color);
+}
+
+.link:hover,
+.link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.adress-link:hover,
+.adress-link:focus,
+.info-link:hover,
+.info-link:focus,
+.current {
+color: var(--activ-color);
+}
+
+.contacts,
+.menu-nav{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button{
+    color: var(--white-color);
+    background-color: var(--activ-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.principles-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.principles-text{
+    color: var(--second-text-color);
+    line-height: 1.71;
+}
+
+.work{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.our-team{
+    background-color: #F5F4FA;
+}
+
+.team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-card{
+    background-color: var(--white-color);
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.job-pos{
+    color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.adress-link{
+    color: var(--white-color);
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.info-link{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.filter{
+    background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus{
+    background-color: var(--activ-color);
+    color: var(--white-color);
+}
+
+.example-item{
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.p-text{
+    color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
