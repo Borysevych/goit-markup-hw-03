@@ -32,6 +32,7 @@ body{
 
 h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
+    padding: 0;
 }
 
 .section{
@@ -50,6 +51,7 @@ img{
 .header > .container{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .menu-nav{
@@ -143,6 +145,7 @@ color: var(--activ-color);
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    border-style: none;
     border-radius: 4px;
 }
 
@@ -193,6 +196,7 @@ color: var(--activ-color);
 }
 
 .our-team{
+    width: 1200px;
     background-color: #F5F4FA;
 }
 
@@ -204,11 +208,20 @@ color: var(--activ-color);
     text-align: center;
 }
 
+.team-list{
+    display: flex;
+}
+
 .team-card{
     background-color: var(--white-color);
 }
 
+.team-card:not(:last-child){
+    margin-right: 30px;
+}
+
 .team-name{
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -216,6 +229,8 @@ color: var(--activ-color);
 }
 
 .job-pos{
+    margin-top: 10px;
+    margin-bottom: 30px;
     color: var(--second-text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -223,7 +238,23 @@ color: var(--activ-color);
 }
 
 .footer{
+    width: 1200px;
+    height: 252px;
     background-color: #2F303A;
+}
+
+.footer .container{
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.adress{
+    margin-top: 20px;
+}
+
+.adress-li:not(:last-child){
+    margin-bottom: 9px;
 }
 
 .adress-link{
@@ -238,7 +269,18 @@ color: var(--activ-color);
     line-height: 1.71;
 }
 
+.filter-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.filter-li:not(:last-child){
+    margin-right: 8px;
+}
+
 .filter{
+    border-style: none;
     background-color: #F5F4FA;
     font-family: inherit;
     font-weight: 500;
@@ -252,6 +294,19 @@ color: var(--activ-color);
 .filter:focus{
     background-color: var(--activ-color);
     color: var(--white-color);
+}
+
+.examples{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.infos{
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .example-item{
