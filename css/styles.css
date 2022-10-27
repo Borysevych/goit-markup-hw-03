@@ -61,6 +61,10 @@ img{
     margin-left: 93px;
 }
 
+.list-link{
+    margin-left: 50px;
+}
+
 .logo{
     color: var(--activ-color);
     font-family: 'Raleway', sans-serif;
@@ -116,7 +120,6 @@ color: var(--activ-color);
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-left: 50px;
 }
 
 .contacts{
@@ -262,8 +265,6 @@ color: var(--activ-color);
 
 .footer .container{
     display: block;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .logo-f{
